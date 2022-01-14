@@ -29,10 +29,10 @@ Table Of Contents:
 
 /*****************************************
 Colors:
-- Backgrounds - light gray #f7fafd
-- Backgrounds - gray #e8eff6
-- Buttons - red #ff556e
-- Headings text, navbar links - black #333
+- Backgrounds - light gray #f7fafd --> 121212 black
+- Backgrounds - gray #e8eff6 --> F6F2F2
+- Buttons - red #ff556e --> EE5500
+- Headings text, navbar links - black #777 --> #97FB57
 - Body text - dark gray #777
 ******************************************/
 
@@ -65,32 +65,32 @@ body, p {
 }
 
 h1 {
-	color: #333;
+	color: #97FB57;
 	font: 700 2.625rem/3.375rem "Open Sans", sans-serif;
 }
 
 h2 {
-	color: #333;
+	color: #97FB57;
 	font: 700 2.125rem/2.75rem "Open Sans", sans-serif;
 }
 
 h3 {
-	color: #333;
+	color: #97FB57;
 	font: 700 1.75rem/2.375rem "Open Sans", sans-serif;
 }
 
 h4 {
-	color: #333;
+	color: #97FB57;
 	font: 700 1.25rem/1.75rem "Open Sans", sans-serif;
 }
 
 h5 {
-	color: #333;
+	color: #97FB57;
 	font: 700 1.125rem/1.625rem "Open Sans", sans-serif;
 }
 
 h6 {
-	color: #333;
+	color: #97FB57;
 	font: 700 1rem/1.5rem "Open Sans", sans-serif;
 }
 
@@ -109,25 +109,25 @@ h6 {
 }
 
 a {
-	color: #555;
+	color: #777;
 	text-decoration: underline;
 }
 
 a:hover {
-	color: #555;
+	color: #777;
 	text-decoration: underline;
 }
 
 a.red {
-	color: #ff556e;
+	color: #EE5500;
 }
 
 .btn-solid-reg {
 	display: inline-block;
 	padding: 1.1875rem 2.125rem 1.1875rem 2.125rem;
-	border: 0.125rem solid #ff556e;
+	border: 0.125rem solid #EE5500;
 	border-radius: 2rem;
-	background-color: #ff556e;
+	background-color: #EE5500;
 	color: #fff;
 	font: 700 0.875rem/0 "Open Sans", sans-serif;
 	text-decoration: none;
@@ -135,18 +135,18 @@ a.red {
 }
 
 .btn-solid-reg:hover {
-	border: 0.125rem solid #ff556e;
+	border: 0.125rem solid #EE5500;
 	background-color: transparent;
-	color: #ff556e;
+	color: #EE5500;
 	text-decoration: none;
 }
 
 .btn-solid-lg {
 	display: inline-block;
 	padding: 1.5rem 2.375rem 1.5rem 2.375rem;
-	border: 0.125rem solid #ff556e;
+	border: 0.125rem solid #EE5500;
 	border-radius: 2rem;
-	background-color: #ff556e;
+	background-color: #EE5500;
 	color: #fff;
 	font: 700 0.875rem/0 "Open Sans", sans-serif;
 	text-decoration: none;
@@ -154,9 +154,9 @@ a.red {
 }
 
 .btn-solid-lg:hover {
-	border: 0.125rem solid #ff556e;
+	border: 0.125rem solid #EE5500;
 	background-color: transparent;
-	color: #ff556e;
+	color: #EE5500;
 	text-decoration: none;
 }
 
@@ -174,18 +174,18 @@ a.red {
 .btn-outline-reg {
 	display: inline-block;
 	padding: 1.1875rem 2.125rem 1.1875rem 2.125rem;
-	border: 0.125rem solid #333;
+	border: 0.125rem solid #777;
 	border-radius: 2rem;
 	background-color: transparent;
-	color: #333;
+	color: #777;
 	font: 700 0.875rem/0 "Open Sans", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
 }
 
 .btn-outline-reg:hover {
-	border: 0.125rem solid #333;
-	background-color: #333;
+	border: 0.125rem solid #777;
+	background-color: #777;
 	color: #fff;
 	text-decoration: none;
 }
@@ -193,18 +193,18 @@ a.red {
 .btn-outline-lg {
 	display: inline-block;
 	padding: 1.5rem 2.375rem 1.5rem 2.375rem;
-	border: 0.125rem solid #333;
+	border: 0.125rem solid #777;
 	border-radius: 2rem;
 	background-color: transparent;
-	color: #333;
+	color: #777;
 	font: 700 0.875rem/0 "Open Sans", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
 }
 
 .btn-outline-lg:hover {
-	border: 0.125rem solid #333;
-	background-color: #333;
+	border: 0.125rem solid #777;
+	background-color: #777;
 	color: #fff;
 	text-decoration: none;
 }
@@ -212,18 +212,19 @@ a.red {
 .btn-outline-sm {
 	display: inline-block;
 	padding: 1rem 1.5rem 1rem 1.5rem;
-	border: 0.125rem solid #333;
+	border: 0.125rem solid #777;
 	border-radius: 2rem;
-	background-color: transparent;
-	color: #333;
+	background-color: traSituation Analysis
+nsparent;
+	color: #777;
 	font: 700 0.875rem/0 "Open Sans", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
 }
 
 .btn-outline-sm:hover {
-	border: 0.125rem solid #333;
-	background-color: #333;
+	border: 0.125rem solid #777;
+	background-color: #777;
 	color: #fff;
 	text-decoration: none;
 }
@@ -367,9 +368,9 @@ input[type='checkbox'] {
 	display: inline-block;
 	width: 100%;
 	height: 3.125rem;
-	border: 0.125rem solid #ff556e;
+	border: 0.125rem solid #EE5500;
 	border-radius: 1.5rem;
-	background-color: #ff556e;
+	background-color: #EE5500;
 	color: #fff;
 	font: 700 0.875rem/0 "Open Sans", sans-serif;
 	cursor: pointer;
@@ -377,9 +378,9 @@ input[type='checkbox'] {
 }
 
 .form-control-submit-button:hover {
-	border: 0.125rem solid #ff556e;
+	border: 0.125rem solid #EE5500;
 	background-color: transparent;
-	color: #ff556e;
+	color: #EE5500;
 }
 
 /* Form Success And Error Message Formatting */
@@ -387,7 +388,7 @@ input[type='checkbox'] {
 #pmsgSubmit.h3.text-center {
 	display: block;
 	margin-bottom: 0;
-	color: #ff556e;
+	color: #EE5500;
 	font-weight: 400;
 	font-size: 1.125rem;
 	line-height: 1rem;
@@ -575,7 +576,7 @@ input[type='checkbox'] {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	background: #f7fafd;
+	background: #121212;
 }
 
 .spinner {
@@ -593,7 +594,7 @@ input[type='checkbox'] {
 	width: 1rem;
 	height: 1rem;
 	border-radius: 100%;
-	background-color: #ff556e;
+	background-color: #EE5500;
 	-webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
 	animation: sk-bouncedelay 1.4s infinite ease-in-out both;
 }
@@ -630,20 +631,20 @@ input[type='checkbox'] {
 /*     03. Navigation     */
 /**************************/
 .navbar-custom {
-	background-color: #f7fafd;
+	background-color: #121212;
 	box-shadow: 0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.1);
 	font: 700 0.875rem/0.875rem "Open Sans", sans-serif;
 	transition: all 0.2s;
 }
 
 .navbar-custom .navbar-brand.logo-image img {
-    width: 6.6875rem;
+    width: 2.25rem;
 	height: 2.25rem;
 }
 
 .navbar-custom .navbar-brand.logo-text {
 	font: 700 2rem/1rem "Open Sans", sans-serif;
-	color: #333;
+	color: #777;
 	text-decoration: none;
 }
 
@@ -654,14 +655,14 @@ input[type='checkbox'] {
 
 .navbar-custom .nav-item .nav-link {
 	padding: 0.625rem 0.75rem;
-	color: #333;
+	color: #777;
 	text-decoration: none;
 	transition: all 0.2s ease;
 }
 
 .navbar-custom .nav-item .nav-link:hover,
 .navbar-custom .nav-item .nav-link.active {
-	color: #ff556e;
+	color: #EE5500;
 }
 
 /* Dropdown Menu */
@@ -693,16 +694,16 @@ input[type='checkbox'] {
 	margin-top: 0;
 	border: none;
 	border-radius: 0.25rem;
-	background-color: #f7fafd;
+	background-color: #121212;
 }
 
 .navbar-custom .dropdown-item {
-	color: #333;
+	color: #777;
 	text-decoration: none;
 }
 
 .navbar-custom .dropdown-item:hover {
-	background-color: #f7fafd;
+	background-color: #121212;
 }
 
 .navbar-custom .dropdown-item .item-text {
@@ -710,7 +711,7 @@ input[type='checkbox'] {
 }
 
 .navbar-custom .dropdown-item:hover .item-text {
-	color: #ff556e;
+	color: #EE5500;
 }
 
 .navbar-custom .dropdown-divider {
@@ -727,20 +728,20 @@ input[type='checkbox'] {
 	margin-top: 0.125rem;
 	margin-bottom: 1.375rem;
 	margin-left: 0.5rem;
-	border: 0.125rem solid #ff556e;
-	color: #ff556e;
+	border: 0.125rem solid #EE5500;
+	color: #EE5500;
 }
 
 .navbar-custom .nav-item .btn-outline-sm:hover {
-	border: 0.125rem solid #ff556e;
-	background-color: #ff556e;
+	border: 0.125rem solid #EE5500;
+	background-color: #EE5500;
 	color: #fff;
 }
 
 .navbar-custom .navbar-toggler {
 	padding: 0;
 	border: none;
-	color: #333;
+	color: #777;
 	font-size: 2rem;
 }
 
@@ -770,7 +771,7 @@ input[type='checkbox'] {
 	overflow: hidden;
 	padding-top: 8rem;
 	padding-bottom: 3rem;
-	background-color: #f7fafd;
+	background-color: #121212;
 	text-align: center;
 }
 
@@ -807,7 +808,7 @@ input[type='checkbox'] {
 .cards-1 {
 	padding-top: 1rem;
 	padding-bottom: 2rem;
-	background-color: #f7fafd;
+	background-color: #121212;
 	text-align: center;
 }
 
@@ -828,11 +829,11 @@ input[type='checkbox'] {
 	margin-bottom: 1.5rem;
 	margin-left: auto;
 	border-radius: 50%;
-	background-color: #ebe7fa;
+	background-color: #121212;
 }
 
 .cards-1 .card-image .fas {
-	color: #aa7eec;
+	color: #ee5500;
 	font-size: 3.25rem;
 	line-height: 7.5rem;
 }
@@ -850,7 +851,7 @@ input[type='checkbox'] {
 }
 
 .cards-1 .card-image.red .fas {
-	color: #ff556e;
+	color: #EE5500;
 }
 
 .cards-1 .card-image.yellow {
@@ -884,7 +885,7 @@ input[type='checkbox'] {
 .basic-1 {
 	padding-top: 3rem;
 	padding-bottom: 8rem;
-	background-color: #f7fafd;
+	background-color: #121212;
 }
 
 .basic-1 .image-container {
@@ -972,7 +973,7 @@ input[type='checkbox'] {
 }
 
 .lightbox-basic .btn-solid-reg.mfp-close:hover {
-	color: #ff556e;
+	color: #EE5500;
 }
 /* end of action Button */
 
@@ -984,8 +985,8 @@ input[type='checkbox'] {
 	height: auto;
 	margin-left: 0.375rem;
 	padding: 1.25rem 2.25rem 1.25rem 2.25rem;
-	border: 0.125rem solid #333;
-	color: #333;
+	border: 0.125rem solid #777;
+	color: #777;
 	opacity: 1;
 }
 
@@ -1001,7 +1002,7 @@ input[type='checkbox'] {
 	right: -0.125rem;
 	width: 2.75rem;
 	height: 2.75rem;
-	color: #555;
+	color: #777;
 }
 /* end of close x button */
 
@@ -1012,7 +1013,7 @@ input[type='checkbox'] {
 .tabs {
 	padding-top: 8rem;
 	padding-bottom: 8rem;
-	background-color: #e8eff6;
+	background-color: #F6F2F2;
 }
 
 .tabs .tabs-container {
@@ -1033,7 +1034,7 @@ input[type='checkbox'] {
 .tabs .nav-link {
 	padding: 0.5rem 1.5rem;
 	border-radius: 0;
-	background-color: #f7fafd;
+	background-color: #121212;
 	color: #777;
 	font-weight: 700;
 	font-size: 1.125rem;
@@ -1042,13 +1043,13 @@ input[type='checkbox'] {
 }
 
 .tabs .nav-link.active {
-	background-color: #9a67e7;
-	color: #fff;
+	background-color: #97FB57;
+	color: #333;
 }
 
 .tabs .nav-link:hover {
-	background-color: #9a67e7;
-	color: #fff;
+	background-color: #97FB57;
+	color: #333;
 }
 
 .tabs .nav-link .fas,
@@ -1086,7 +1087,7 @@ input[type='checkbox'] {
 .basic-2 {
 	padding-top: 7rem;
 	padding-bottom: 5rem;
-	background-color: #f7fafd;
+	background-color: #121212;
 }
 
 .basic-2 h2 {
@@ -1117,7 +1118,7 @@ input[type='checkbox'] {
 }
 
 .basic-2 .fa-stack-2x.red {
-	color: #ff556e;
+	color: #EE5500;
 }
 
 .basic-2 .fa-stack-2x.yellow {
@@ -1152,7 +1153,7 @@ input[type='checkbox'] {
 .slider {
 	padding-top: 8rem;
 	padding-bottom: 8rem;
-	background-color: #e8eff6;
+	background-color: #F6F2F2;
 }
 
 .slider .slider-container {
@@ -1196,7 +1197,7 @@ input[type='checkbox'] {
 .cards-2 {
 	padding-top: 7rem;
 	padding-bottom: 3rem;
-	background-color: #f7fafd;
+	background-color: #121212;
 	text-align: center;
 }
 
@@ -1234,7 +1235,7 @@ input[type='checkbox'] {
 }
 
 .cards-2 .testimonial-author {
-	color: #333;
+	color: #777;
 }
 
 .cards-2 .image-container {
@@ -1257,7 +1258,7 @@ input[type='checkbox'] {
 .counter {
 	padding-top: 8rem;
 	padding-bottom: 5rem;
-	background-color: #e8eff6;
+	background-color: #F6F2F2;
 	text-align: center;
 }
 
@@ -1285,7 +1286,7 @@ input[type='checkbox'] {
 }
 
 .counter #counter .fas.red {
-	color: #ff556e;
+	color: #EE5500;
 }
 
 .counter #counter .fas.yellow {
@@ -1297,7 +1298,7 @@ input[type='checkbox'] {
 }
 
 .counter #counter .counter-value {
-	color: #333;
+	color: #777;
 	font-weight: 700;
 	font-size: 3.5rem;
 	line-height: 4.25rem;
@@ -1318,7 +1319,7 @@ input[type='checkbox'] {
 	overflow: hidden;
 	padding-top: 8rem;
 	padding-bottom: 8rem;
-	background-color: #f7fafd;
+	background-color: #121212;
 	text-align: center;
 }
 
@@ -1353,7 +1354,7 @@ input[type='checkbox'] {
 	padding-top: 4rem;
 	padding-bottom: 1rem;
 	border-top: 1px solid #c8d4d6;
-	background-color: #f7fafd;
+	background-color: #121212;
 }
 
 .footer p,
@@ -1416,7 +1417,7 @@ input[type='checkbox'] {
 }
 
 .footer .fa-stack:hover .fa-stack-2x {
-    color: #555;
+    color: #777;
 }
 
 
@@ -1425,7 +1426,7 @@ input[type='checkbox'] {
 /*************************/
 .copyright {
 	padding-bottom: 0.75rem;
-	background-color: #f7fafd;
+	background-color: #121212;
 	text-align: center;
 }
 
@@ -1451,13 +1452,13 @@ a.back-to-top {
 	width: 2.625rem;
 	height: 2.625rem;
 	border-radius: 1.875rem;
-	background: #333 url("../images/up-arrow.png") no-repeat center 47%;
+	background: #777 url("../images/up-arrow.png") no-repeat center 47%;
 	background-size: 1.125rem 1.125rem;
 	text-indent: -9999px;
 }
 
 a:hover.back-to-top {
-	background-color: #555; 
+	background-color: #777; 
 }
 
 
@@ -1467,14 +1468,14 @@ a:hover.back-to-top {
 .ex-header {
 	padding-top: 8rem;
 	padding-bottom: 5rem;
-	background-color: #f7fafd;
+	background-color: #121212;
 	text-align: center;
 }
 
 .ex-basic-1 {
 	padding-top: 2rem;
 	padding-bottom: 0.875rem;
-	background-color: #e8eff6;
+	background-color: #F6F2F2;
 }
 
 .ex-basic-1 .breadcrumbs {
@@ -1490,7 +1491,7 @@ a:hover.back-to-top {
 .ex-basic-2 {
 	padding-top: 4.75rem;
 	padding-bottom: 4rem;
-	background-color: #f7fafd;
+	background-color: #121212;
 }
 
 .ex-basic-2 h3 {
@@ -1507,7 +1508,7 @@ a:hover.back-to-top {
 
 .ex-basic-2 .text-container.dark {
 	padding: 1.625rem 1.5rem 0.75rem 2rem;
-	background-color: #e8eff6;
+	background-color: #F6F2F2;
 }
 
 .ex-basic-2 .image-container-large {
@@ -1656,17 +1657,17 @@ a:hover.back-to-top {
 	
 	.navbar-custom.top-nav-collapse {
         padding: 0.5rem 1.5rem 0.5rem 2rem;
-		background-color: #f7fafd;
+		background-color: #121212;
 		box-shadow: 0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.1);
 	}
 
 	.navbar-custom.top-nav-collapse .nav-item .nav-link {
-		color: #333;
+		color: #777;
 	}
 
 	.navbar-custom.top-nav-collapse .nav-item .nav-link:hover,
 	.navbar-custom.top-nav-collapse .nav-item .nav-link.active {
-		color: #ff556e;
+		color: #EE5500;
 	}
 
 	.navbar-custom .dropdown-menu {
