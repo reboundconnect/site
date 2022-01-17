@@ -214,8 +214,7 @@ a.red {
 	padding: 1rem 1.5rem 1rem 1.5rem;
 	border: 0.125rem solid #777;
 	border-radius: 2rem;
-	background-color: traSituation Analysis
-nsparent;
+	background-color: transparent;
 	color: #777;
 	font: 700 0.875rem/0 "Open Sans", sans-serif;
 	text-decoration: none;
@@ -1110,7 +1109,7 @@ input[type='checkbox'] {
 }
 
 .basic-2 .fa-stack-2x {
-	color: #aa7eec;
+	color: #e50;
 }
 
 .basic-2 .fa-stack-2x.green {
@@ -1130,7 +1129,7 @@ input[type='checkbox'] {
 }
 
 .basic-2 .fa-stack-1x {
-	color: #fff;
+	color: #e50;
 }
 
 .basic-2 .media-body h4 {
@@ -1403,21 +1402,21 @@ input[type='checkbox'] {
 }
 
 .footer .fa-stack .fa-stack-1x {
-    color: #fff;
+    color: #777;
 	transition: all 0.2s ease;
 }
 
 .footer .fa-stack .fa-stack-2x {
-	color: #999;
+	color: #777;
 	transition: all 0.2s ease;
 }
 
 .footer .fa-stack:hover .fa-stack-1x {
-	color: #fff;
+	color: #e50;
 }
 
 .footer .fa-stack:hover .fa-stack-2x {
-    color: #777;
+    color: #e50;
 }
 
 
