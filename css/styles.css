@@ -2202,3 +2202,22 @@ a:hover.back-to-top {
 	/* end of extra pages */
 }
 /* end of min-width 1200px */
+
+/*extra added*/
+.text-container .fa-stack .fa-stack-1x {
+    color: #777;
+	transition: all 0.2s ease;
+}
+
+.text-container .fa-stack .fa-stack-2x {
+	color: #777;
+	transition: all 0.2s ease;
+}
+
+.text-container .fa-stack:hover .fa-stack-1x {
+	color: #e50;
+}
+
+.text-container .fa-stack:hover .fa-stack-2x {
+    color: #e50;
+}
